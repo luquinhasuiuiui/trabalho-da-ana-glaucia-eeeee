@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Procurando o Valdivino</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você estava na sua casa, e lembra que tem que ir passar 9 horas num lugar chamado "Valdivino". O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Volto a dormir né rapaz, pelo amor</button>
+            <button class="btn-proximo" data-proximo="2">Eu me arrumo e encaro a parada</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Dormindo ou não, sua mãe te obriga a ir pra lá de qualquer jeito. E agora, você está indo. Vai de ônibus?</p>
+            <button class="btn-proximo" data-proximo="3">Claro que vou, mó frio</button>
+            <button class="btn-proximo" data-proximo="4">Eu vou é a pé mesmo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No meio do caminho, tu é assaltado.</p>
+            <button class="btn-proximo" data-proximo="5">Continuo indo pro Valdivino, porque nada mais me abala</button>
+            <button class="btn-proximo" data-proximo="6">Eu vou pra escola, mas passo na delegacia depois!</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você encontra um rato!
+                </p>
+            <button class="btn-proximo" data-proximo="7">Socorroooooo</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Tu volta pra casa porque é encontrar um rato do que um bandido.
+                </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Beleza estamos na metade do caminho! Agora sai correndi, porque você tem que estar lá antes das 8:00 e tu saiu 7:55!
+                </p>
+            <button class="btn-proximo" data-proximo="7">Beleza, se cê tá dizendo né...</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Passando na delegacia, os cara tava no almoço KKKKKKKKKKKKK</p>
+            <button class="btn-proximo" data-proximo="8">Caramba!</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Beleza, continue andando!</p>
+            <button class="btn-proximo" data-proximo="9">Parar de andar</button>
+            <button class="btn-proximo" data-proximo="10">Continuar andando</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Continua andando fi, cansou?</p>
+            <button class="btn-proximo" data-proximo="7">Continua andando fi, cansou?</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Beleza fi, mas e a sua mãe?
+                </p>
+            <button class="btn-proximo" data-proximo="11">Tá bommmmm, desculpaaa, vou continuar andando</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Tu ta quase, já tá vendo o portão!
+                </p>
+            <button class="btn-proximo" data-proximo="12">e AGORA?</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>TU TA QUASE LA! FALTA TÃO POUCO!
+                </p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Sem contexto, sim ou sim ?
+                </p>
+            <button class="btn-proximo" data-proximo="11">ixi, sei lá vei</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
